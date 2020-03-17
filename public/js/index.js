@@ -14,7 +14,7 @@ fetch('https://covid19.mathdro.id/api')
   </div>
   <div class="shadow-lg rounded-lg p-5 hover:shadow-xl bg-green-300 text-center">
 	<h2 class="uppercase text-lg font-bold text-xl tracking-normal pb-3">Recovered</h2>
-	<p class="text-5xl">🥳</p>
+	<p class="text-5xl">👍🏾</p>
   <p class="text-5xl">${recovered.value.toLocaleString()}</p>
   </div>
     <div class="shadow-lg rounded-lg p-5 hover:shadow-xl bg-red-300 text-center">
@@ -46,7 +46,7 @@ fetch('https://covid19.mathdro.id/api/confirmed')
 			</div>
 			<div class="shadow-lg rounded-lg p-5 hover:shadow-xl bg-green-300 text-center">
 				<h2 class="uppercase text-lg font-bold text-xl tracking-normal pb-3">Recovered</h2>
-				<p class="text-5xl">🥳</p>
+				<p class="text-5xl">👍🏾</p>
 				<p class="text-5xl">${data[31].recovered.toLocaleString()}</p>
 			</div>
 			<div class="shadow-lg rounded-lg p-5 hover:shadow-xl bg-red-300 text-center">
