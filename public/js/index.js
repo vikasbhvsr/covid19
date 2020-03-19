@@ -20,7 +20,10 @@ fetch('https://covid19.mathdro.id/api')
     <div class="shadow-lg rounded-lg p-5 hover:shadow-xl bg-red-300 text-center">
 	<h2 class="uppercase text-lg font-bold text-xl tracking-normal pb-3">Deaths</h2>
 	<p class="text-5xl">👼</p>
-      <p class="text-5xl">${deaths.value.toLocaleString()}</p>
+      <p class="text-5xl">${deaths.value.toLocaleString()}<span class="ml-2 text-lg">(${(
+      (deaths.value / confirmed.value) *
+      100
+    ).toFixed(2)}%)</span></p>
       </div>
   </div>
   <div class="text-left my-4">
